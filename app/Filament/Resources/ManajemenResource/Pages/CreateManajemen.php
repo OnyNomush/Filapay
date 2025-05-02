@@ -13,8 +13,7 @@ class CreateManajemen extends CreateRecord
     protected function getRedirectUrl(): string
     {   
         return $this->getResource()::getUrl('index');
-        //alamak
-    }   #bocah kontol
+    }  
 }
 
 
