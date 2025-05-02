@@ -1,7 +1,3 @@
-Berikut adalah versi **lebih menarik** dan **telah diterjemahkan ke dalam Bahasa Indonesia** dari README Laravel yang kamu berikan:
-
----
-
 <p align="center">
   <a href="https://laravel.com" target="_blank">
     <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Logo Laravel">
@@ -87,7 +83,3 @@ Semua laporan akan ditindaklanjuti dengan cepat.
 ## ⚖️ Lisensi
 
 Laravel adalah software sumber terbuka yang dirilis di bawah [Lisensi MIT](https://opensource.org/licenses/MIT).
-
----
-
-Jika kamu ingin, saya bisa bantu masukkan ini langsung ke file `README.md`-mu. Mau?
