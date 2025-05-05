@@ -26,8 +26,9 @@ class UserResource extends Resource
     {
         return $form
             ->schema([
-                Forms\Components\TextInput::make('avatar_url')
-                    ->label('Foto Profile'),
+                Forms\Components\FileUpload::make('avatar_url')
+                    ->label('Foto Profile')
+                    ->avatar(),
                 Forms\Components\TextInput::make('name')
                     ->required()
                     ->minLength(3),
@@ -35,6 +36,18 @@ class UserResource extends Resource
                     ->required()
                     ->email()
                     ->minLength(6),
+                Forms\Components\TextInput::make('password')
+                    ->required()
+                    ->password()
+                    ->revealable(),
+                Forms\Components\Select::make('role')
+                    ->options([
+                        'admin' => 'Admin',
+                        'operator' => 'Operator',   
+                    ])
+                    ->required()
+                    ->placeholder('')
+                    ->searchable(),
             ]);
     }
 

@@ -59,8 +59,8 @@ class AdminPanelProvider extends PanelProvider
             ])
             ->plugins([
                 FilamentEditProfilePlugin::make()
-                ->setIcon('heroicon-o-ellipsis-horizontal-circle')
-                ->shouldShowAvatarForm(),
+                    ->setIcon('heroicon-o-ellipsis-horizontal-circle')
+                    ->shouldShowAvatarForm(),
             ])
             ->userMenuItems([
                 MenuItem::make()
