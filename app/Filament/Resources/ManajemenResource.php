@@ -19,6 +19,7 @@ class ManajemenResource extends Resource
 
     protected static ?string $navigationIcon = 'heroicon-o-user';
     protected static ?string $navigationGroup = 'Karyawan';
+    protected static ?string $label = 'Data Manajemen';
 
     public static function form(Form $form): Form
     {
